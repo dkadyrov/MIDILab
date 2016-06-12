@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 JUN 2016 03:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 JUN 2016 02:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -749,7 +749,16 @@ Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 
 
 Writing index file MIDI_Lab_Manual.idx
-(/Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.aux (/Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/signalpath.aux)
+(/Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.aux
+
+LaTeX Warning: Label `fig:fullfig' multiply defined.
+
+
+LaTeX Warning: Label `fig:fullfig' multiply defined.
+
+
+LaTeX Warning: Label `fig:fullfig' multiply defined.
+
 
 LaTeX Warning: Label `fig:fullfig' multiply defined.
 
@@ -759,43 +768,43 @@ LaTeX Warning: Label `fig:marginfig' multiply defined.
 )
 \openout1 = `MIDI_Lab_Manual.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 78.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Try loading font information for T1+pplj on input line 77.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 78.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
 \AtBeginShipoutBox=\box89
-Package hyperref Info: Link coloring ON on input line 77.
-LaTeX Info: Redefining \ref on input line 77.
-LaTeX Info: Redefining \pageref on input line 77.
-LaTeX Info: Redefining \nameref on input line 77.
+Package hyperref Info: Link coloring ON on input line 78.
+LaTeX Info: Redefining \ref on input line 78.
+LaTeX Info: Redefining \pageref on input line 78.
+LaTeX Info: Redefining \nameref on input line 78.
  (/Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.out) (/Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.out)
 \@outlinefile=\write6
 \openout6 = `MIDI_Lab_Manual.out'.
 
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 77.
+LaTeX Info: Redefining \selectfont on input line 78.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -831,7 +840,7 @@ LaTeX Info: Redefining \selectfont on input line 77.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 77.
+LaTeX Info: Redefining \microtypecontext on input line 78.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -869,22 +878,22 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Try loading font information for T1+phv on input line 94.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 95.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 94.
+(Font)              scaled to size 8.99994pt on input line 95.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 16.19989pt on input line 94.
+(Font)              scaled to size 16.19989pt on input line 95.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 32.39978pt on input line 94.
+(Font)              scaled to size 32.39978pt on input line 95.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 12.59991pt on input line 94.
+(Font)              scaled to size 12.59991pt on input line 95.
  [1
 
 
@@ -892,32 +901,32 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 
-] (/Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.toc)
+] (/Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.toc [3])
 \tf@toc=\write7
 \openout7 = `MIDI_Lab_Manual.toc'.
 
- [3] [4
-
-] (/Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.lof
-Overfull \hbox (19.32582pt too wide) in paragraph at lines 6--6
- [][] [][][]\T1/pplj/m/n/10 (-20) Master, Sub and Send Con-trols from Mackie CR1604-VLZ Mixer[][] 16 
+ [4] (/Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.lof
+Overfull \hbox (19.32582pt too wide) in paragraph at lines 10--10
+ [][] [][][]\T1/pplj/m/n/10 (-20) Master, Sub and Send Con-trols from Mackie CR1604-VLZ Mixer[][] 18 
  []
 
 )
 \tf@lof=\write8
 \openout8 = `MIDI_Lab_Manual.lof'.
 
- [5] [6
+ [5
+
+] [6
 
 ] [7] [8
 
 ]
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 156.
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 157.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 156.
+(Font)              scaled to size 8.50006pt on input line 157.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -926,46 +935,77 @@ Package microtype Info: Loading generic settings for font family
 
 ] [10
 
-] <LaTeX/BlockDiagramMIDI.png, id=107, 565.11125pt x 304.13625pt>
-File: LaTeX/BlockDiagramMIDI.png Graphic file (type png)
- <use LaTeX/BlockDiagramMIDI.png>
-Package pdftex.def Info: LaTeX/BlockDiagramMIDI.png used on input line 175.
-(pdftex.def)             Requested size: 408.00938pt x 219.58586pt.
-\openout2 = `signalpath.aux'.
+]
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
+ []
 
-No file signalpath.tex.
-[11
+LaTeX Font Info:    Try loading font information for TS1+pplj on input line 186.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1pplj.fd
+File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
+)
 
+Package hyperref Warning: Suppressing empty link on input line 188.
 
+<LaTeX/Room.png, id=164, 789.95125pt x 336.25626pt>
+File: LaTeX/Room.png Graphic file (type png)
+ <use LaTeX/Room.png>
+Package pdftex.def Info: LaTeX/Room.png used on input line 193.
+(pdftex.def)             Requested size: 408.00467pt x 173.67416pt.
+ [11
 
- <./LaTeX/BlockDiagramMIDI.png>] <LaTeX/Mackie_Manual-1.png, id=114, 376.2858pt x 393.8715pt>
-File: LaTeX/Mackie_Manual-1.png Graphic file (type png)
- <use LaTeX/Mackie_Manual-1.png>
-Package pdftex.def Info: LaTeX/Mackie_Manual-1.png used on input line 192.
-(pdftex.def)             Requested size: 408.00174pt x 427.06969pt.
- [12 <./LaTeX/Mackie_Manual-1.png>] <LaTeX/Mackie.png, id=120, 110.5731pt x 661.7523pt>
-File: LaTeX/Mackie.png Graphic file (type png)
- <use LaTeX/Mackie.png>
-Package pdftex.def Info: LaTeX/Mackie.png used on input line 200.
-(pdftex.def)             Requested size: 102.92807pt x 615.99884pt.
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 203.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pplx.fd
+ <./LaTeX/Room.png>] [12
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 240--243
+
+ []
+
+<LaTeX/roland_d50.jpg, id=176, 602.25pt x 169.63374pt>
+File: LaTeX/roland_d50.jpg Graphic file (type jpg)
+ <use LaTeX/roland_d50.jpg>
+Package pdftex.def Info: LaTeX/roland_d50.jpg used on input line 249.
+(pdftex.def)             Requested size: 408.01749pt x 114.92491pt.
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 255.
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
+
+ []
+
+[13 <./LaTeX/roland_d50.jpg>] <LaTeX/tritonextreme.jpg, id=187, 602.25pt x 206.7725pt>
+File: LaTeX/tritonextreme.jpg Graphic file (type jpg)
+ <use LaTeX/tritonextreme.jpg>
+Package pdftex.def Info: LaTeX/tritonextreme.jpg used on input line 273.
+(pdftex.def)             Requested size: 408.01749pt x 140.086pt.
+
+./MIDI_Lab_Manual.tex:281: Misplaced alignment tab character &.
+l.281 	\item Press Bank &
+                          Program keys, turn dial, use touchscreen or use up...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 282.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 203.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 282.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 203.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 282.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 203.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 282.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 203.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 282.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
@@ -973,39 +1013,62 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+ [14 <./LaTeX/tritonextreme.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 301--304
+
+ []
+
+<LaTeX/e-mu-proteus-2000.png, id=202, 936.49875pt x 210.7875pt>
+File: LaTeX/e-mu-proteus-2000.png Graphic file (type png)
+ <use LaTeX/e-mu-proteus-2000.png>
+Package pdftex.def Info: LaTeX/e-mu-proteus-2000.png used on input line 308.
+(pdftex.def)             Requested size: 408.00241pt x 91.83334pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--316
+
+ []
+
+[15 <./LaTeX/e-mu-proteus-2000.png>] <LaTeX/Mackie_Manual-1.png, id=210, 376.2858pt x 393.8715pt>
+File: LaTeX/Mackie_Manual-1.png Graphic file (type png)
+ <use LaTeX/Mackie_Manual-1.png>
+Package pdftex.def Info: LaTeX/Mackie_Manual-1.png used on input line 332.
+(pdftex.def)             Requested size: 408.00174pt x 427.06969pt.
+ [16 <./LaTeX/Mackie_Manual-1.png>] <LaTeX/Mackie.png, id=216, 110.5731pt x 661.7523pt>
+File: LaTeX/Mackie.png Graphic file (type png)
+ <use LaTeX/Mackie.png>
+Package pdftex.def Info: LaTeX/Mackie.png used on input line 340.
+(pdftex.def)             Requested size: 102.92807pt x 615.99884pt.
 
 
-LaTeX Warning: Marginpar on page 13 moved.
+LaTeX Warning: Marginpar on page 17 moved.
 
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 211.
 
-LaTeX Warning: Reference `fig:signal' on page 13 undefined on input line 226.
+LaTeX Warning: Reference `fig:signal' on page 17 undefined on input line 367.
 
-[13 <./LaTeX/Mackie.png>] <LaTeX/Mackie_2.png, id=150, 152.0079pt x 529.0164pt>
+[17 <./LaTeX/Mackie.png>] <LaTeX/Mackie_2.png, id=242, 152.0079pt x 529.0164pt>
 File: LaTeX/Mackie_2.png Graphic file (type png)
  <use LaTeX/Mackie_2.png>
-Package pdftex.def Info: LaTeX/Mackie_2.png used on input line 243.
+Package pdftex.def Info: LaTeX/Mackie_2.png used on input line 386.
 (pdftex.def)             Requested size: 144.00542pt x 501.16624pt.
 
 
-LaTeX Warning: Marginpar on page 14 moved.
+LaTeX Warning: Marginpar on page 18 moved.
 
-[14 <./LaTeX/Mackie_2.png>] [15] [16
+[18 <./LaTeX/Mackie_2.png>] [19] [20] [21
 
-] [17] [18] (/Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.bbl
+] [22] (/Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) (/Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.ind) [19
+) (/Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.ind) [23
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
- (/Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.aux (/Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/signalpath.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 456.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 456.
+ (/Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 456.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 456.
 Package rerunfilecheck Info: File `MIDI_Lab_Manual.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -1015,23 +1078,23 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 312.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 456.
  ) 
 Here is how much of TeX's memory you used:
- 26544 strings out of 493089
- 490912 string characters out of 6134842
- 702361 words of memory out of 5000000
- 29203 multiletter control sequences out of 15000+600000
- 82596 words of font info for 254 fonts, out of 8000000 for 9000
+ 26640 strings out of 493089
+ 491885 string characters out of 6134842
+ 702071 words of memory out of 5000000
+ 29244 multiletter control sequences out of 15000+600000
+ 88335 words of font info for 274 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,67p,453b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,67p,691b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{effects\040processor} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.pdf (19 pages, 1790910 bytes).
+Output written on /Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.pdf (23 pages, 2406900 bytes).
 PDF statistics:
- 248 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
- 72 named destinations out of 1000 (max. 500000)
- 48233 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 274 compressed objects within 3 object streams
+ 98 named destinations out of 1000 (max. 500000)
+ 54928 words of extra memory for PDF output out of 61914 (max. 10000000)
 
