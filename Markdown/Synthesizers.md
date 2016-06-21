@@ -1,4 +1,0 @@
-
-# Korg Triton
-
-

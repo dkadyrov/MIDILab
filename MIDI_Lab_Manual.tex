@@ -1,456 +1,76 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Tufte-Style Book (Minimal Template)
-% LaTeX Template
-% Version 1.0 (5/1/13)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-% IMPORTANT NOTE:
-% In addition to running BibTeX to compile the reference list from the .bib
-% file, you will need to run MakeIndex to compile the index at the end of the
-% document.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[letterpaper,width=175mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
+\usepackage{fancyhdr}
 
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
-\documentclass{tufte-book} % Use the tufte-book class which in turn uses the tufte-common class
-
-\hypersetup{colorlinks} % Comment this line if you don't wish to have colored links
-\usepackage{enumitem}
-
-\usepackage{microtype} % Improves character and word spacing
 \usepackage{hyperref}
-\usepackage{lipsum} % Inserts dummy text
-\usepackage{nameref}
-\usepackage{tikz}
-\usepackage{booktabs} % Better horizontal rules in tables
-\usepackage{graphicx} % Needed to insert images into the document
-\graphicspath{{graphics/}} % Sets the default location of pictures
-\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio} % Improves figure scaling
+\renewcommand\UrlFont{\color{red}\rmfamily\itshape}
 
-\usepackage{fancyvrb} % Allows customization of verbatim environments
-\fvset{fontsize=\normalsize} % The font size of all verbatim text can be changed here
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\newenvironment{fixpic}{}{}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[RO,RE]{MIDI Lab Manual}
+\fancyfoot{}
+\fancyfoot[RE,RO]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
 
-\newcommand{\hangp}[1]{\makebox[0pt][r]{(}#1\makebox[0pt][l]{)}} % New command to create parentheses around text in tables which take up no horizontal space - this improves column spacing
-\newcommand{\hangstar}{\makebox[0pt][l]{*}} % New command to create asterisks in tables which take up no horizontal space - this improves column spacing
+\usepackage{multicol}
 
-\usepackage{xspace} % Used for printing a trailing space better than using a tilde (~) using the \xspace command
-
-\newcommand{\monthyear}{\ifcase\month\or January\or February\or March\or April\or May\or June\or July\or August\or September\or October\or November\or December\fi\space\number\year} % A command to print the current month and year
-
-\newcommand{\openepigraph}[2]{ % This block sets up a command for printing an epigraph with 2 arguments - the quote and the author
-\begin{fullwidth}
-\sffamily\large
-\begin{doublespace}
-\noindent\allcaps{#1}\\ % The quote
-\noindent\allcaps{#2} % The author
-\end{doublespace}
-\end{fullwidth}
-}
-\usetikzlibrary{shapes,arrows}
-
-\newcommand{\blankpage}{\newpage\hbox{}\thispagestyle{empty}\newpage} % Command to insert a blank page
-
-\usepackage{makeidx} % Used to generate the index
-\makeindex % Generate the index which is printed at the end of the document
-\setcounter{tocdepth}{4}
-
-%\renewcommand{\labelenumii}{\roman{enumii}}
-%----------------------------------------------------------------------------------------
-%	BOOK META-INFORMATION
-%----------------------------------------------------------------------------------------
-
-\title{MIDI Lab Manual} % Title of the book
-
-\author{THEA 230/330} % Author
-
-\publisher{Theater Department, Binghamton University} % Publisher
-
-%----------------------------------------------------------------------------------------
+\title{MIDI LAB Manual}
+\author{THEA 220/330}
+\date{}
 
 \begin{document}
 
-\frontmatter
+\input{LaTeX/titlepage}
 
-%----------------------------------------------------------------------------------------
-%	EPIGRAPH
-%----------------------------------------------------------------------------------------
-%
-%\thispagestyle{empty}
-%\openepigraph{Quotation 1}{Author, {\itshape Source}}
-%\vfill
-%\openepigraph{Quotation 2}{Author}
-%\vfill
-%\openepigraph{Quotation 3}{Author}
+\tableofcontents
 
-%----------------------------------------------------------------------------------------
+\listoffigures
 
-\maketitle % Print the title page
+\newpage
+\section{Introduction}
 
-%----------------------------------------------------------------------------------------
-%	COPYRIGHT PAGE
-%----------------------------------------------------------------------------------------
+Welcome to the  Theater Department's MIDI Lab. This room offers students who take/TA for the MIDI class (THEA 230/330) a place to play with synthesizers and make music. By taking this class you join a community of people interested in synthesizers, sound, audio technology, and music.
 
-%\newpage
-%\begin{fullwidth}
-%~\vfill
-%\thispagestyle{empty}
-%\setlength{\parindent}{0pt}
-%\setlength{\parskip}{\baselineskip}
-%Copyright \copyright\ \the\year\ \thanklessauthor
-%
-%\par\smallcaps{Published by \thanklesspublisher}
-%
-%\par\smallcaps{\url{http://www.bookwebsite.com}}
-%
-%\par License information.\index{license}
-%
-%\par\textit{First printing, \monthyear}
-%\end{fullwidth}
-
-%----------------------------------------------------------------------------------------
-
-\tableofcontents % Print the table of contents
-
-%----------------------------------------------------------------------------------------
-
-\listoffigures % Print a list of figures
-
-%----------------------------------------------------------------------------------------
-
-%\listoftables % Print a list of tables
-
-%----------------------------------------------------------------------------------------
-%	DEDICATION PAGE
-%----------------------------------------------------------------------------------------
-
-\cleardoublepage
-~\vfill
-\begin{doublespace}
-\noindent\fontsize{18}{22}\selectfont\itshape
-\nohyphenation
-Dedicated to Sue Peters
-\end{doublespace}
-\vfill
-\vfill
-\graphicspath{{LaTeX/}}
-%----------------------------------------------------------------------------------------
-%	INTRODUCTION
-%----------------------------------------------------------------------------------------
-\justify
-\cleardoublepage
-\chapter{Introduction to Audio and MIDI} % The asterisk leaves out this chapter from the table of contents
-
-\section{Brief History of Synthesizers and MIDI}
-\section{Sound}
-\subsection{Building Blocks of Sound}
-
-%Citation example \cite{Tufte2001}, notice how the citation is in the margin. This is an example of how to add something to the index at the end of the document.\index{citation}
-
-\newthought{Example of} the \texttt{newthought} command for starting new sections. Typography examples: \allcaps{all caps} and \smallcaps{small caps}.
-
-%----------------------------------------------------------------------------------------
-
-\mainmatter
-
-%----------------------------------------------------------------------------------------
-%	CHAPTER 1
-%----------------------------------------------------------------------------------------
-\chapter{Introduction to MIDI LAB}
-\label{MIDI Intro}
-
-\begin{fullwidth}
-
-Welcome to the  Theater Department's MIDI Lab. This room offers students who take/TA for the MIDI class (THEA 230/330) a place to play with synthesizers and make music. By taking this class you join a community of people interested in synthesizers, sound, audio technology, and music. \\
-
-Please do not limit yourselves to the comforts of software instruments. This class offers so much hardware that a
-
-
-
-
-
-	
-\end{fullwidth}
-
-
-\section{Basic Rules} 
-
-\begin{itemize}
-\item Be respectful of the furniture and the equipment. Please wash your hands before touching any of the instruments, audio equipment, and computer.
-\item Do not eat or drink close to any of the instruments, audio equipment, and computer. 
-\item Return the lab it's default state (see \ref{Default})
-\end{itemize}
-
-\begin{figure*}[h]
+\begin{figure}[h]
 \centering
-\includegraphics[width=.85\textwidth]{LaTeX/Room.png}
-\caption{Room Arrangement}
+\includegraphics[width=.75\textwidth]{Images/Room.png}
+\caption{Arrangement of the MIDI Lab}
 \label{fig:fullfig}
-\end{figure*}
+\end{figure}
 
+\subsection{Basic Rules}
 
-\section{Default}
-\label{Default} 
-
-\chapter{MIDI Lab Equipment}
-\label{MIDI Lab Equipment}
-%------------------------------------------------
-
-%\begin{fullwidth}
-%Synthesizers:
-%\begin{itemize}
-%	\item[] \textbf{Korg Triton}
-%	\item[] \textbf{Roland D50} 
-%	\item[] \textbf{EMU Proteus 2000} 
-%\end{itemize}
-%
-%Audio Equipment
-%\begin{itemize}
-%	\item[] \textbf{Mackie CR1601 VLZ Mixer}	: 16 channel audio mixer with ability to send audio to effects processor, other keyboards (for sampling), and for recording on the iMac as well as to a personal computer through a personal audio interface.
-%	\item[] \textbf{DMV Pro-Audio Effects Processor} 
-%	\item[] \textbf{Alesis M1 Active Mk2 Studio Monitors}
-%	\item[] \textbf{Line 6 Audio Interface}
-%\end{itemize}
-%
-%
-%MIDI Components
-%\begin{itemize}
-%	\item[] \textbf{MOTU MIDI Interface}: Allows MIDI communication and control between the iMac and the synthesizers 
-%	\item[]	\textbf{Yamaha Clavinet}: Used as the primary MIDI controller within the MIDI Lab setup.
-%\end{itemize}
-%
-%Other Devices
-%\begin{itemize}
-%	\item[] \textbf{Apple iMac 2009}: The computer provided within the MIDI Lab. Ableton Live and Logic Pro 10 are installed. 
-%\end{itemize}
-%
-%\end{fullwidth}
-
-\section{Synthesizers}
-
-\subsection{Roland D-50}
-\begin{fullwidth}
-The Roland D-50 is a polyphonic 61-key synthesizer produced by Roland in 1987. It features Linear Arithmetic synthesis, onboard effects, a joystick, and analog synthesis-styled layout. Linear Arithmetic synthesis combines sample playback with digital synthesis. Roland used samples to simulate the most realistic attack and then the D-50 uses the synthesizer section to sustain the sound. This method saved on the expense of RAM and gave the synthesized sound a texture that made it popular with choir, wind, and string patches. Notable users are: 808 State, Alphaville, Aphex Twin, Enya, Duran Duran, George Michael, Micahel Jackson, Phil Collins, Prince, and Rush. \\
+Be respectful of the furniture and the equipment. Please wash your hands before touching any of the instruments, audio equipment, and computer.\\
 \linebreak
-\href{https://github.com/dkadyrov/MIDILab/blob/master/Manuals/Roland_D50.pdf}{Roland D-50 Manual (PDF)}
-\end{fullwidth}
-
-
-
-\begin{figure*}[h]
-\centering
-\includegraphics[width=.85\textwidth]{LaTeX/roland_d50.jpg}
-\caption{Roland D-50}
-\label{fig:fullfig}
-\end{figure*}
-
-\begin{fullwidth}
-\textbf{Quick Patching}\\
-\begin{enumerate}
-	\item Move that Joystick! 
-	\item test
-	\item test
-\end{enumerate}
-\end{fullwidth}
-
-
-\newpage
-\subsection{Korg Triton Extreme}
-\begin{fullwidth}
-The Korg Triton made its debut in 2004. It is a workstation and sampler (16 MB sample RAM, 2 minutes and 54 seconds in mono at 48 kHz), has a programmable arpeggiator, ribbon controller, 2 USB ports, and "Valve Force" which can convert the signal into analog form. Notable users are: David Bowie, Coldplay, Lady Gaga, Ronald Jenkees, Linkin Park, Moby, Paul Oakenfold, Scooter, Mike Shinoda, Serj Tankian, and Timbaland.
-\end{fullwidth}
-
-
-\begin{figure*}[h]
-\centering
-\includegraphics[width=.85\textwidth]{LaTeX/tritonextreme.jpg}
-\caption{Korg Triton Extreme}
-\label{fig:fullfig}
-\end{figure*}
-
-\textbf{Edit Suggestions}
-\begin{enumerate}
-	\item Press [PROG] (Program) Mode
-	\item Press Bank & Program keys, turn dial, use touchscreen or use up and down keys to select patches.
-	\item Press \[MENU\] 
-	\item Press [REAL TIME CONTROLS] 
-\end{enumerate}
-
-\textbf{Add Effects}
-\begin{enumerate}
-	\item Press [MENU] key, Page Jump Menu, press P8 (or hold MENU key down)
-	\item Press routing tab in window, choose IFX
-	\item Press Insert FX tab at the bottom of the window and choose a tab at the bottom of the window
-	\item Choose desired effect (change to ON by pressing OFF button)
-	\item Check CHAIN box to add another effect; press OFF button of that effect to change to ON
-\end{enumerate}
-
-\newpage
-
-\newpage
-\subsection{E-mu Proteus 2000}
-
-\begin{fullwidth}
-	The E-mu Proteus 2000 was released in 1999. Contains thousands of waves utilizing 32 MB of ROM. Features 128 voice polyphony and 32-part multi-timbrality. E-mu Systems became a popular company with their Emulator sampler and continued to pioneer sample-based synthesis with the Proteus range. The sampler does not allow users to record sounds, but offers a range of factory sounds that then can be layered, filtered, modulated by LFO's, and shaped by envelopes. \\
+Do not eat or drink close to any of the instruments, audio equipment, and computer.\\
 \linebreak
-\href{https://github.com/dkadyrov/MIDILab/blob/master/Manuals/EMU_Proteus2000.pdf}{E-mu Proteus 2000 (PDF)}
-\end{fullwidth}
+Return the lab it's default state. Make sure the room is neat, window is closed and locked, and the door is locked. Return all faders and knobs to neutral position. Close all opened applications on the computer.
 
-\begin{figure*}[h]
-\centering
-\includegraphics[width=.85\textwidth]{LaTeX/e-mu-proteus-2000}
-\caption{E-mu Proteus 2000}
-\label{fig:fullfig}
-\end{figure*}
+\subsection{Computer Rules}
 
-\begin{fullwidth}
-\textbf{Quick Patching}\\
-\begin{enumerate}
-	\item Turn the large knob (data entry knob) to switch through patches 
-	\item Change parameters with the 5 smaller knobs (realtime control knobs) on the left side. The button to the left of the realtime control knobs changes the function of the row of knobs (written list above knobs). 
-	\item For more complex control, press the [EDIT] button and use the data entry knob to select the parameters you want to change. Press the in the data entry knob as an enter function and then change the data values by turning the knob.
-\end{enumerate}
-\end{fullwidth}
+Please refrain from installing illegal or foreign applications, virtual software instruments, and commercial samples on the MIDI Computer.\\
+\linebreak
+Install commercial-free samples in the sample folder located in \emph{USER/Music/Samples}.\\
+\linebreak
+Feel free to use a personal computer for recording and mastering in the MIDI Lab. Two stereo TRS cables are available to connect to the IN's and OUT's of a personal audio interface. Please do not unplug the TonePort audio interface from the iMac.
 
 \newpage
-\section{Audio Equipment}
-\subsection{Mackie CR1604 VLZ Mixer}
-
-\begin{fullwidth}
-16 channel audio mixer with ability to send audio to effects processor, other keyboards (for sampling), and for recording on the iMac as well as to a personal computer through a personal audio interface.
-\end{fullwidth}
-
-\begin{figure*}[h]
-\centering
-\includegraphics[width=.85\textwidth]{LaTeX/Mackie_Manual-1.png}
-\caption{Mackie CR1604 Mixer}
-\label{fig:fullfig}
-\end{figure*}
-
+\input{LaTeX/Synthesizers}
 \newpage
 
-\begin{marginfigure}
-\includegraphics[width=\linewidth]{Mackie.png}
-\caption{Channel from Mackie CR1604-VLZ Mixer}
-\label{fig:marginfig}
-\end{marginfigure}
-\begin{fullwidth}
-\textbf{Control of Individual Channel}
-\end{fullwidth}
-
-\begin{enumerate}
-	\item Volume Fader: Controls the volume of the channel within the mixer
-	\item Path (Subs): Chooses where the channel signal is directed to
-	\begin{enumerate}
-		\item \textbf{Solo}: Isolates the channel in the mix. Useful for when you only want to hear the specific channel without other ones. 
-		\item \textbf{1-2}: Sends to Computer for Recording
-		\item \textbf{3-4}: Sends to stereo $\frac{1}{4}$" cables for use with personal audio interfaces. 
-		\item \textbf{L-R}: Sends only to Monitors (Speakers)
-	\end{enumerate}
-	\item Mute: Mutes the Channel 
-	\item Pan: Controls the amount of signal sent to the left vs right, 1 vs 2, or 3 vs 4
-	\item Equalization (EQ) 
-	\begin{enumerate}
-		\item \textbf{High EQ}: $\pm 15$ dB at $12$ kHz
-		\item \textbf{Mid EQ}: $\pm 15$ dB within 1.5 octaves of the frequency center (Determined by Frequency Sweep) 
-		\item \textbf{Frequency Sweep}: Selects the center of the Mid EQ between $100$ Hz and $8$ kHz 
-		%\item \textbf{Low EQ}: $\pm 15$ dB at $80$ Hz 
-		\item \textbf{Low Cut Switch}: Removes all signal below $75$ Hz (High Pass Filter) 
-	\end{enumerate}
-	\item Auxiliary Sends: Sends a parallel signal path to other outputs on the mixer. See \ref{fig:signal} for more information. 
-	\begin{enumerate}
-		\item \textbf{Aux A-B}: The DMV Pro effects processor has two inputs and can run different effects on each input. Aux \textbf{A} sends a signal to input 1 on the processor and Aux \textbf{B} sends a signal to input 2. See the section on the \hyperlink{effects processor}{effects processor}. 
-		\item \textbf{Aux C-D}: Not used 
-	\end{enumerate}
-	\item Trim (Gain): Controls the amplitude of the signal going into the mixer. Input sensitivity is adjusted by $-10$ dB to $40$ dB. Please do not adjust unless necessary. 
-\end{enumerate}
-
-%------------------------------------------------
-
-%\lipsum[1] 
+\newpage
+\input{LaTeX/Audio}
 
 \newpage
-
-\begin{fullwidth}
-\textbf{Control of Mixer}
-\end{fullwidth}
-
-\begin{marginfigure}
-\includegraphics[width=\linewidth]{Mackie_2.png}
-\caption{Master, Sub and Send Controls from Mackie CR1604-VLZ Mixer}
-\label{fig:marginfig}
-\end{marginfigure}
-
-\begin{enumerate}
-	\item Effects to Monitors: Adds effects to monitors. 
-	\item Aux 1-2 Sends: Controls the gain of the AUX 1-2 send output into the mixer. 
-	\item AUX Returns: Controls the volume of the signal returning from the AUX within the mixer. 
-	\item 1-2/3-4 Toggles: Controls the path of the signal to 
-	\item IGNORE ABOVE
-	\item C-R/Phones: Controls volume to the Control Room out and the \hyperlink{Headphone Jack}{Headphone Jack}
-	\item Selects what inputs are routed to the meter display
-	\item Meter Display: Visually shows the strength of the signal. Want the highest possible signal strength (green) without clipping (red light). At yellow compression occurs.
-	\item Selects what inputs are routed to the meter display, the C-R out and the headphone jack. 
-	\item Solo Knob: Controls the level of the soloed channels
-	\item Mode Control: 
-	\begin{enumerate}
-		\item \textbf{Normal (AFL)}: solo signal is post EQ, Pan, and Fader
-		\item \textbf{Level Set (PFL)}: solo signal is pre EQ, Pan, and Fader
-	\end{enumerate}
-	\item \hypertarget{Headphone Jack}{Headphone Jack}: Accepts $\frac{1}{4}$ in. plug. Feel free to use your own headphones. 
-	\item Main Mix Assigns: Allows fader subgroups 1-4 to be assigned left, right, or both channels in main mix. 
-	\item Subgroup Volume Faders: Control the output levels of chosen group. Adjusting the volume of subgroup 1-2 will change the volume audio into the iMac. Adjusting 3-4 will change volume of the audio going into personal audio equipment. 
-	\item Master Fader: controls output to speakers. 
-\end{enumerate}
-
-\newpage
-\subsection{DMV-Pro Effects Processor}
-
-\subsection{Line 6 TonePort MK2}
-
-
-
-
-\newpage
-
-\section{MIDI Time Piece MTP AV (MOTU)}
-\subsection{Subsection 1}
-
-\lipsum[9-10]
-
-\subsection{Subsection 2}
-
-\lipsum[11-12]
-
-%----------------------------------------------------------------------------------------
-%	CHAPTER 2
-%----------------------------------------------------------------------------------------
-
-\chapter{Chapter 2 Title}
-\label{ch:2}
-
-\lipsum[13-20]
-
-%----------------------------------------------------------------------------------------
-
-\backmatter
-
-%----------------------------------------------------------------------------------------
-%	BIBLIOGRAPHY
-%----------------------------------------------------------------------------------------
-
-\bibliography{bibliography} % Use the bibliography.bib file for the bibliography
-\bibliographystyle{plainnat} % Use the plainnat style of referencing
-
-%----------------------------------------------------------------------------------------
-
-\printindex % Print the index at the very end of the document
-
+\input{LaTeX/MIDI}
 \end{document}
+

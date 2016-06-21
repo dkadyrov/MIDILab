@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  21 JUN 2016 17:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  21 JUN 2016 16:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**MIDI_Lab_Manual.tex
-(./MIDI_Lab_Manual.tex
+**main.tex
+(./main.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
@@ -474,7 +474,7 @@ Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
 \mult@nat@firstbox=\box51
 \colbreak@box=\box52
 \mc@col@check@num=\count114
-) (/Volumes/Data/Users/DanielKadyrov/Cloud Drives/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.aux
+) (/Volumes/Data/Users/DanielKadyrov/Cloud Drives/GitHub/MIDILab/LaTeX/.texpadtmp/main.aux
 
 LaTeX Warning: Label `fig:fullfig' multiply defined.
 
@@ -497,7 +497,7 @@ LaTeX Warning: Label `fig:fullfig' multiply defined.
 LaTeX Warning: Label `fig:fullfig' multiply defined.
 
 )
-\openout1 = `MIDI_Lab_Manual.aux'.
+\openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
@@ -589,13 +589,11 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 30.
 LaTeX Info: Redefining \pageref on input line 30.
 LaTeX Info: Redefining \nameref on input line 30.
- (/Volumes/Data/Users/DanielKadyrov/Cloud Drives/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.out) (/Volumes/Data/Users/DanielKadyrov/Cloud Drives/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.out)
+ (/Volumes/Data/Users/DanielKadyrov/Cloud Drives/GitHub/MIDILab/LaTeX/.texpadtmp/main.out) (/Volumes/Data/Users/DanielKadyrov/Cloud Drives/GitHub/MIDILab/LaTeX/.texpadtmp/main.out)
 \@outlinefile=\write3
-\openout3 = `MIDI_Lab_Manual.out'.
+\openout3 = `main.out'.
 
- (./LaTeX/titlepage.tex [1
-
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (/Volumes/Data/Users/DanielKadyrov/Cloud Drives/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.toc
+ (./titlepage.tex) (/Volumes/Data/Users/DanielKadyrov/Cloud Drives/GitHub/MIDILab/LaTeX/.texpadtmp/main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -604,11 +602,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
 )
 \tf@toc=\write4
-\openout4 = `MIDI_Lab_Manual.toc'.
-
- (/Volumes/Data/Users/DanielKadyrov/Cloud Drives/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.lof)
-\tf@lof=\write5
-\openout5 = `MIDI_Lab_Manual.lof'.
+\openout4 = `main.toc'.
 
 
 
@@ -617,15 +611,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.38 \newpage
-              [1] <Images/Room.png, id=125, 789.95125pt x 336.25626pt>
-File: Images/Room.png Graphic file (type png)
- <use Images/Room.png>
-Package pdftex.def Info: Images/Room.png used on input line 45.
-(pdftex.def)             Requested size: 373.44241pt x 158.964pt.
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+
+LaTeX Warning: File `Images/Room.png' not found on input line 45.
+
+
+./main.tex:45: Package pdftex.def Error: File `Images/Room.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...hics[width=.75\textwidth]{Images/Room.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 52--57
 
@@ -636,7 +640,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--57
 
  []
 
-
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 60--65
 
  []
@@ -646,106 +650,240 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--65
 
  []
 
-[2 <./Images/Room.png>] (./LaTeX/Synthesizers.tex
+[3] (./Synthesizers.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--7
 
  []
 
-<Images/roland_d50.jpg, id=134, 602.25pt x 169.63374pt>
-File: Images/roland_d50.jpg Graphic file (type jpg)
- <use Images/roland_d50.jpg>
-Package pdftex.def Info: Images/roland_d50.jpg used on input line 10.
-(pdftex.def)             Requested size: 423.23776pt x 119.21648pt.
- [3 <./Images/roland_d50.jpg>]
+
+LaTeX Warning: File `Images/roland_d50.jpg' not found on input line 10.
+
+
+./Synthesizers.tex:10: Package pdftex.def Error: File `Images/roland_d50.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...idth=.85\textwidth]{Images/roland_d50.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 25--28
 
  []
 
-<Images/tritonextreme.jpg, id=144, 602.25pt x 206.7725pt>
-File: Images/tritonextreme.jpg Graphic file (type jpg)
- <use Images/tritonextreme.jpg>
-Package pdftex.def Info: Images/tritonextreme.jpg used on input line 31.
-(pdftex.def)             Requested size: 423.23776pt x 145.31714pt.
- [4 <./Images/tritonextreme.jpg>]
+
+LaTeX Warning: File `Images/tritonextreme.jpg' not found on input line 31.
+
+
+./Synthesizers.tex:31: Package pdftex.def Error: File `Images/tritonextreme.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...h=.85\textwidth]{Images/tritonextreme.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5] [6] [7]
 Underfull \hbox (badness 10000) in paragraph at lines 59--62
 
  []
 
-<Images/e-mu-proteus-2000.png, id=160, 936.49875pt x 210.7875pt>
-File: Images/e-mu-proteus-2000.png Graphic file (type png)
- <use Images/e-mu-proteus-2000.png>
-Package pdftex.def Info: Images/e-mu-proteus-2000.png used on input line 66.
-(pdftex.def)             Requested size: 423.23776pt x 95.26518pt.
-) [5 <./Images/e-mu-proteus-2000.png>] (./LaTeX/Audio.tex <Images/BlockDiagramAudio.png, id=168, 645.41125pt x 304.13625pt>
-File: Images/BlockDiagramAudio.png Graphic file (type png)
- <use Images/BlockDiagramAudio.png>
-Package pdftex.def Info: Images/BlockDiagramAudio.png used on input line 6.
-(pdftex.def)             Requested size: 423.23776pt x 199.44041pt.
+
+./Synthesizers.tex:66: LaTeX Error: File `Images/e-mu-proteus-2000' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 ...h=.85\textwidth]{Images/e-mu-proteus-2000}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) [8] (./Audio.tex
+
+LaTeX Warning: File `Images/BlockDiagramAudio.png' not found on input line 6.
+
+
+./Audio.tex:6: Package pdftex.def Error: File `Images/BlockDiagramAudio.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...85\textwidth]{Images/BlockDiagramAudio.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 17--20
 
  []
 
-<Images/DMVPRO.jpg, id=170, 752.8125pt x 168.63pt>
-File: Images/DMVPRO.jpg Graphic file (type jpg)
- <use Images/DMVPRO.jpg>
-Package pdftex.def Info: Images/DMVPRO.jpg used on input line 23.
-(pdftex.def)             Requested size: 423.23776pt x 94.80782pt.
- [6 <./Images/BlockDiagramAudio.png> <./Images/DMVPRO.jpg>]
+[9]
+
+LaTeX Warning: File `Images/DMVPRO.jpg' not found on input line 23.
+
+
+./Audio.tex:23: Package pdftex.def Error: File `Images/DMVPRO.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...cs[width=.85\textwidth]{Images/DMVPRO.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 31--34
 
  []
 
-<Images/Mackie_Manual-1.png, id=178, 376.2858pt x 393.8715pt>
-File: Images/Mackie_Manual-1.png Graphic file (type png)
- <use Images/Mackie_Manual-1.png>
-Package pdftex.def Info: Images/Mackie_Manual-1.png used on input line 38.
-(pdftex.def)             Requested size: 423.23776pt x 443.0202pt.
- [7 <./Images/Mackie_Manual-1.png>]
+
+LaTeX Warning: File `Images/Mackie_Manual-1.png' not found on input line 38.
+
+
+./Audio.tex:38: Package pdftex.def Error: File `Images/Mackie_Manual-1.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ....85\textwidth]{Images/Mackie_Manual-1.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[11]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 54.
 
 
-LaTeX Warning: Reference `fig:signal' on page 8 undefined on input line 67.
+LaTeX Warning: Reference `fig:signal' on page 12 undefined on input line 67.
 
-<Images/Mackie.png, id=185, 110.5731pt x 661.7523pt>
-File: Images/Mackie.png Graphic file (type png)
- <use Images/Mackie.png>
-Package pdftex.def Info: Images/Mackie.png used on input line 76.
-(pdftex.def)             Requested size: 104.59166pt x 625.96062pt.
- [8 <./Images/Mackie.png>] <Images/Mackie_2.png, id=213, 152.0079pt x 529.0164pt>
-File: Images/Mackie_2.png Graphic file (type png)
- <use Images/Mackie_2.png>
-Package pdftex.def Info: Images/Mackie_2.png used on input line 109.
-(pdftex.def)             Requested size: 179.86876pt x 625.96062pt.
- [9 <./Images/Mackie_2.png>]) (./LaTeX/MIDI.tex <Images/BlockDiagramMIDI.png, id=237, 514.92375pt x 304.13625pt>
-File: Images/BlockDiagramMIDI.png Graphic file (type png)
- <use Images/BlockDiagramMIDI.png>
-Package pdftex.def Info: Images/BlockDiagramMIDI.png used on input line 7.
-(pdftex.def)             Requested size: 423.23776pt x 249.98735pt.
+
+LaTeX Warning: File `Images/Mackie.png' not found on input line 76.
+
+
+./Audio.tex:76: Package pdftex.def Error: File `Images/Mackie.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 ...egraphics[height=220mm]{Images/Mackie.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (382.17134pt too wide) in paragraph at lines 76--78
+ [] 
+ []
+
+
+Overfull \vbox (12.7544pt too high) has occurred while \output is active []
+
+ [12] [13]
+
+LaTeX Warning: File `Images/Mackie_2.png' not found on input line 109.
+
+
+./Audio.tex:109: Package pdftex.def Error: File `Images/Mackie_2.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...aphics[height=220mm]{Images/Mackie_2.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (382.17134pt too wide) in paragraph at lines 109--111
+ [] 
+ []
+
+
+Overfull \vbox (12.7544pt too high) has occurred while \output is active []
+
+ [14] [15]) (./MIDI.tex
+
+LaTeX Warning: File `Images/BlockDiagramMIDI.png' not found on input line 7.
+
+
+./MIDI.tex:7: Package pdftex.def Error: File `Images/BlockDiagramMIDI.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 ....85\textwidth]{Images/BlockDiagramMIDI.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-[10 <./Images/BlockDiagramMIDI.png>]
+[16] [17]
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-<Images/MOTU.jpg, id=245, 2025.5675pt x 176.66pt>
-File: Images/MOTU.jpg Graphic file (type jpg)
- <use Images/MOTU.jpg>
-Package pdftex.def Info: Images/MOTU.jpg used on input line 30.
-(pdftex.def)             Requested size: 423.23776pt x 36.911pt.
-)
+
+LaTeX Warning: File `Images/MOTU.jpg' not found on input line 30.
+
+
+./MIDI.tex:30: Package pdftex.def Error: File `Images/MOTU.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...hics[width=.85\textwidth]{Images/MOTU.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[18])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
- [11 <./Images/MOTU.jpg>]
+ [19]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
- (/Volumes/Data/Users/DanielKadyrov/Cloud Drives/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.aux)
+ (/Volumes/Data/Users/DanielKadyrov/Cloud Drives/GitHub/MIDILab/LaTeX/.texpadtmp/main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
-Package rerunfilecheck Info: File `MIDI_Lab_Manual.out' has not changed.
+Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
 
@@ -757,20 +895,20 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  ) 
 Here is how much of TeX's memory you used:
- 7449 strings out of 493089
- 113512 string characters out of 6134842
+ 7421 strings out of 493089
+ 112084 string characters out of 6134842
  315160 words of memory out of 5000000
- 10740 multiletter control sequences out of 15000+600000
- 10370 words of font info for 36 fonts, out of 8000000 for 9000
+ 10695 multiletter control sequences out of 15000+600000
+ 9802 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,10n,43p,718b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,10n,43p,701b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{effects\040processor} has been referenced but does not exist, replaced by a fixed one
 
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "/Volumes/Data/Users/DanielKadyrov/Cloud Drives/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.pdf" (12 pages, 2610826 bytes).
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on "/Volumes/Data/Users/DanielKadyrov/Cloud Drives/GitHub/MIDILab/LaTeX/.texpadtmp/main.pdf" (19 pages, 145751 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 263 compressed objects within 3 object streams
- 99 named destinations out of 1000 (max. 500000)
- 200 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 313 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
+ 106 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 

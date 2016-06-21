@@ -1,22 +1,18 @@
-\contentsline {chapter}{Introduction to Audio and MIDI}{9}{chapter*.3}
-\contentsline {section}{Brief History of Synthesizers and MIDI}{9}{section*.4}
-\contentsline {section}{Sound}{9}{section*.5}
-\contentsline {subsection}{Building Blocks of Sound}{9}{subsection*.6}
-\contentsline {chapter}{Introduction to MIDI LAB}{11}{chapter*.7}
-\contentsline {section}{Basic Rules}{11}{section*.8}
-\contentsline {section}{Default}{11}{section*.9}
-\contentsline {chapter}{MIDI Lab Equipment}{13}{chapter*.10}
-\contentsline {section}{Synthesizers}{13}{section*.11}
-\contentsline {subsection}{Roland D-50}{13}{subsection*.12}
-\contentsline {subsection}{Korg Triton Extreme}{14}{subsection*.13}
-\contentsline {subsection}{E-mu Proteus 2000}{15}{subsection*.14}
-\contentsline {section}{Audio Equipment}{16}{section*.15}
-\contentsline {subsection}{Mackie CR1604 VLZ Mixer}{16}{subsection*.16}
-\contentsline {subsection}{DMV-Pro Effects Processor}{19}{subsection*.17}
-\contentsline {subsection}{Line 6 TonePort MK2}{19}{subsection*.18}
-\contentsline {section}{MIDI Time Piece MTP AV (MOTU)}{20}{section*.19}
-\contentsline {subsection}{Subsection 1}{20}{subsection*.20}
-\contentsline {subsection}{Subsection 2}{20}{subsection*.21}
-\contentsline {chapter}{Chapter 2 Title}{21}{chapter*.22}
-\contentsline {chapter}{Bibliography}{23}{chapter*.23}
-\contentsfinish 
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Basic Rules}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Computer Rules}{2}{subsection.1.2}
+\contentsline {section}{\numberline {2}Synthesizers}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Roland D-50}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Korg Triton Extreme}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}E-mu Proteus 2000}{5}{subsection.2.3}
+\contentsline {section}{\numberline {3}Audio Equipment}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Audio Signal Path}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Line 6 TonePort MK2}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}DMV-Pro Effects Processor}{6}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Mackie CR1604 VLZ Mixer}{7}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Control of Individual Channel}{8}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Control of Mixer}{9}{subsubsection.3.4.2}
+\contentsline {section}{\numberline {4}MIDI Equipment}{10}{section.4}
+\contentsline {subsection}{\numberline {4.1}MIDI Signal Path}{10}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Yamaha Clavinova CLP-50}{10}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}MOTU MIDI Time Piece MTP AV}{11}{subsection.4.3}

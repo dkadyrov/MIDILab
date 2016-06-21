@@ -1,17 +1,12 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.aux
-I couldn't open database file bibliography.bib
----line 70 of file /Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.aux
- : \bibdata{bibliography
- :                      }
-I'm skipping whatever remains of this command
+The top-level auxiliary file: /Volumes/Data/Users/DanielKadyrov/Cloud Drives/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.aux
 The style file: plainnat.bst
-I found no \citation commands---while reading file /Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.aux
-I found no database files---while reading file /Volumes/Data/Users/DanielKadyrov/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.aux
+I found no \citation commands---while reading file /Volumes/Data/Users/DanielKadyrov/Cloud Drives/GitHub/MIDILab/.texpadtmp/MIDI_Lab_Manual.aux
+Database file #1: ../bibliography.bib
 You've used 0 entries,
             2773 wiz_defined-function locations,
-            592 strings with 4974 characters,
+            592 strings with 5003 characters,
 and the built_in function-call counts, 33 in all, are:
 = -- 0
 > -- 0
@@ -50,4 +45,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 7
-(There were 3 error messages)
+(There was 1 error message)
